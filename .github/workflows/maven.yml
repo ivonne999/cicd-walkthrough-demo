@@ -30,6 +30,7 @@ jobs:
     - name: Test with Maven
       run: mvn -B test
 
+  # use synk to perform DAST
   snyk:
     runs-on: ubuntu-latest
     steps:
